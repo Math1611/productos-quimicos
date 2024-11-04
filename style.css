@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(228, 228, 228);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 100;
+    border-bottom: #979797 5px solid;
+}
+nav a{
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 166, 216);
+    font-weight: 500;
+    width: 33.3%;
+    display: flex; 
+    justify-content: center;
+    transition: 0.3s;
+}
+nav a:hover{
+    border-bottom: rgb(0, 166, 216) 8px solid;
+    border-top: rgb(0, 166, 216) 8px solid;
+}
+.banner{
+    padding-top: 100px;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.banner p{
+    color: #fff;
+    position: absolute;
+    top: 550px;
+    left: 80px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.descripcion{
+    background-color: rgb(220, 220, 220);
+    height: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.descripcion h2{
+    color: rgb(0, 166, 216);
+    font-size: 40px;
+}
+.descripcion h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+/*main*/
+
+.logotipos h2{
+    margin: 50px 40px 0px 50px;
+    font-size: 80px;
+}
+
+.descripcion_de_subtitulos{
+    margin: 50px 40px 0px 50px;
+    font-size: 20px;
+}
+
+.logos{
+    margin:100px 200px 100px 200px;
+}
+
+.part1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.part3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo_junto_a_descripcion{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.logo_junto_a_descripcion:hover{
+    transform: translateY(-5px);
+}
+
+.productos{
+    margin-top: 200px;
+}
+.productos h2{
+    font-size: 80px;
+    margin: 50px 40px 0px 50px;
+}
+
+.quimicos{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+    padding: 100px;
+}
+.img-quimicos img{
+    height: 500px;
+    width: 500px;
+}
+.descripcion-quimicos{
+    font-size: 20px;
+    padding-top: 40px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.title h1{
+    font-size: 80px;
+}
+.title hr{
+    margin-bottom: 50px;
+}
+.pregunta_guia{
+    width: 80%;
+    margin-left: 120px;
+}
+.pregunta_guia h2{
+    font-weight: 300;
+    width: 80%;
+    margin-left: 100px;
+}
+.efectos_de_salud{
+    display: flex;
+    flex-direction: column;
+}
+.efectos_de_salud h2{
+    font-weight: 600;
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.efectos_medio_ambiente{
+    display: flex;
+    flex-direction: column;
+}
+.efectos_medio_ambiente h2{
+    font-weight: 600;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.referencias h2{
+    font-weight: 600;
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+.referencias p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #646464;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.top{
+    height: 80px;
+    transition: transform 0.4s ease;
+}
+
+.top:hover{
+    transform: translateY(-5px);
+}
+
+.scroll-to-top:hover {
+    background-color: #767676;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
